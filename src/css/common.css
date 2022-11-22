@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  font-size: 16;
+  padding: 10px;
+  border-radius: 0;
+  border: none;
+  background-color: #ccc;
+}
+
+input {
+  font-size: 16;
+  padding: 8px;
+  border-width: 1px;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  width: 100%;
+  font-size: 40px;
+}
